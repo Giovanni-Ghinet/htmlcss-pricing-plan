@@ -2,3 +2,44 @@ body {
     font-family: Arial, sans-serif;
 }    
 
+.ul-vantaggi{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.par-head-sec{
+   margin: 0 auto;
+}
+
+.row{
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 15px;
+    row-gap: 15px;
+    flex-grow: 1;
+}
+
+.title-sec{
+    margin: 20px 0 0 0;
+}
+
+.sec-price{
+    text-align: center;
+}
+
+.button-select-piano{
+    text-align: center;
+}
+
+.scleta-piano{
+    background-color: #6500FF;
+    color: white;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.li-vantaggio{
+   
+}
