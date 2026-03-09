@@ -30,3 +30,13 @@
 .f-weight-600{
     font-weight: 600;
 }
+
+.font-header{
+    font-size: 0.9rem;
+}
+
+.wrap{
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: start;
+}

@@ -13,6 +13,18 @@ body {
    font-size: 0.8rem;
 }
 
+.par-title{
+    margin: 0 auto;
+}
+
+.header-title{
+    margin: 0 auto;
+}
+
+.tempo{
+    text-align: end;
+}
+
 .row{
     flex-wrap: wrap;
     justify-content: center;
