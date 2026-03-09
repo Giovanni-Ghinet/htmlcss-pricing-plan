@@ -19,7 +19,6 @@ body {
     justify-content: center;
     column-gap: 30px;
     row-gap: 30px;
-    flex-basis: calc((100% / 3)- (( 30*2 ) / 3));
     flex-grow: 1;
 }
 
@@ -49,6 +48,10 @@ body {
     border-radius: 20px;
     box-shadow: 1px 1px 2px 2px rgba(0,0,0,0.1);
     padding: 45px 30px;
+    flex-basis: calc((100% / 3) - (30 * 2) / 3);
+    flex-shrink: 0;
+    flex-grow: 1;
+    min-height: 200px;
 }
 
 .dollar{
@@ -58,4 +61,24 @@ body {
 
 .li-vantaggio{
     margin-bottom: 10px;
+}
+
+.background-sconto{
+    background-color: #E3E3E3;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.seconda-section{
+    background-color:  #6500FF;
+    color: white;
+}
+
+.scleta-piano-bianco{
+    background-color: white;
+    color: #6500FF;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
 }
